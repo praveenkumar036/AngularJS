@@ -1,0 +1,2 @@
+<div></div> = The <div> tag defines a division or a section in an HTML Document.
+<p></p> = Browser automtaically addsome space (margin) before and after each <p> element.The margin can be modified with css.
