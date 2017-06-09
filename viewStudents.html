@@ -1,0 +1,16 @@
+<div class="container">
+<h2> View Students </h2>
+Search:
+
+<br/>
+<input type = "text" ng-model="name" />
+<br/>
+
+<ul>
+
+ <li ng-repeat="student in students.details | filter:name">
+ {{students.college}},{{student.name}},{{student.city}}
+ </li>
+</ul>
+<a href="#/home">Back</a>
+</div>
